@@ -70,11 +70,11 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "NICEBOY~" + string_session;
+                        let md = "spi~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, NICEBOY-XD User!* 👋🏻
+                        let desc = `*Hey there, SPIRITY-XMD User!* 👋🏻
 
-Thanks for using *NICEBOY-XD* — your session has been successfully created!
+Thanks for using *SPIRITY-XMD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -83,23 +83,23 @@ Thanks for using *NICEBOY-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbAMJ3uL7UVYmOUkpz0E
+https://whatsapp.com/channel/0029VbAfF6f1dAw7hJidqS0i
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/NICE-BOY226/NICE-BOY-pair.git
+https://github.com/DARKMAN226/SPIRITY-XMD.git
 
 ——————
 
-> *© Powered by NICE-BOY*
+> *© Powered by 𝙳̷𝚊̷𝚛̷𝚔̷-𝙳̷𝙴̷𝚟̷🩸*
 Stay cool and hack smart. ✌🏻`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "NICE-BOY 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
-thumbnailUrl: "https://files.catbox.moe/lzl9iq.png",
-sourceUrl: "https://whatsapp.com/channel/0029VbAMJ3uL7UVYmOUkpz0E",
+title: "𝐒𝐏𝐈𝐑𝐈𝐓𝐘-𝐗𝐌𝐃  𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
+thumbnailUrl: "https://files.catbox.moe/zmhz85.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VbAfF6f1dAw7hJidqS0i",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -108,9 +108,9 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hey there, NICEBOY-XD User!* 👋🏻
+                            let desc = `*Hey there, 𝐒𝐏𝐈𝐑𝐈𝐓𝐘-𝐗𝐌𝐃  User!* 👋🏻
 
-Thanks for using *NICEBOY-XD* — your session has been successfully created!
+Thanks for using *𝐒𝐏𝐈𝐑𝐈𝐓𝐘-𝐗𝐌𝐃* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -119,21 +119,21 @@ Thanks for using *NICEBOY-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbAMJ3uL7UVYmOUkpz0E
+https://whatsapp.com/channel/0029VbAfF6f1dAw7hJidqS0i
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/NICE-BOY226/NICE-BOY-pair.git
+https://github.com/DARKMAN226/SPIRITY-XMD.git
 
-> *© Powered by NICE-BOY*
+> *© Powered by 𝙳̷𝚊̷𝚛̷𝚔̷-𝙳̷𝙴̷𝚟̷🩸 🇧🇫 *
 Stay cool and hack smart. ✌🏻*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "NICE-BOY 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
-thumbnailUrl: "https://files.catbox.moe/lzl9iq.png",
-sourceUrl: "https://whatsapp.com/channel/0029VbAMJ3uL7UVYmOUkpz0E",
+title: "𝐒𝐏𝐈𝐑𝐈𝐓𝐘-𝐗𝐌𝐃 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
+thumbnailUrl: "https://files.catbox.moe/zmhz85.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VbAfF6f1dAw7hJidqS0i",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
